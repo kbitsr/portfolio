@@ -47,8 +47,9 @@ export const options = {
     labels,
     datasets: [
       {
-        label: '%',
         data:porcentajes,
+        label: '%',
+        labelPosition:'right',
         backgroundColor:  [
           'rgba(228, 85, 45,0.3)',
           'rgba(45, 83, 229,0.3)',
@@ -56,9 +57,10 @@ export const options = {
           'rgba(134, 207, 47,0.3)',
           'rgba(102, 219, 251, 0.3)',
           'rgba(39, 141, 59, 0.3)',
-          'rgba(153, 102, 255, 0.3)',
-          'rgba(201, 203, 207, 0.3)'
-        ]
+          'rgba(201, 203, 207, 0.3)',
+        ],
+        hoverBorderWidth:1,
+        hoverBorderRadius:10,
       },
     ],
   };

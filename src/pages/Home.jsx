@@ -25,6 +25,7 @@ export const Home = () => {
       col-span-full
       text-center
       self-center
+      font-light
       text-xl
       lg:text-sm
       lg:self-start
