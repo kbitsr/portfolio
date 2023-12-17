@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <section className="border gap-x-4">
+    <section className="gap-x-4 animate__animated animate__slideInRight animate__faster">
       <div
         className="
         row-start-2

@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "./pages/Layout";
 import { Contact } from "./pages/Contact";
-import { Portfolio } from "./pages/Portfolio";
-import { About } from "./pages/About";
+import { PortfolioIndex } from "./pages/PortfolioIndex";
+import { AboutIndex } from "./pages/AboutIndex";
 import { Home } from "./pages/Home";
 import { BarChart } from "./components/BarChart";
 import { Profile } from "./pages/Profile";
@@ -15,12 +15,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} >
+          <Route path="about" element={<AboutIndex />} >
             <Route index element={<Profile/>}/>
             <Route path="skill" element={<BarChart/>}/>
             <Route path="education" element={<Education/>}/>
           </Route>
-          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="portfolio" element={<PortfolioIndex />}>
+       
+          </Route>
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Route>

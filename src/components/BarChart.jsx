@@ -75,14 +75,8 @@ export const data = {
 
 export function BarChart() {
   return (
-    <>
-    <div className="border flex justify-around items-center col-start-6 col-span-2">
-      <NavLink to="/about/skill" className="border-none">Skills</NavLink>
-      <NavLink to="/about/education" className="border-none">Education</NavLink>
-    </div>
-    <div className="row-start-2 row-span-6 col-span-10 col-start-2 flex justify-center">
+    <div className="row-start-2 row-span-6 col-span-10 col-start-2 flex justify-center animate__animated animate__slideInUp animate__faster">
       <Bar options={options} data={data} />
     </div>
-    </>
   );
 }
