@@ -79,7 +79,7 @@ export const Profile = () => {
       lg:row-start-7
       lg:col-start-6
       text-center
-      self-center" to="/about/skill"><i class='bx bxs-chevron-up-circle  animate-bounce text-4xl'></i></NavLink>
+      self-center" to="/about/skill"><i class='bx bxs-chevron-up-circle  animate-lights text-4xl'></i></NavLink>
       </>
   )
 }

@@ -33,12 +33,17 @@ export const Layout = () => {
         <NavLink to="/contact" className=" h-full flex items-center">
           <span className="mx-2">CONTACT</span>
         </NavLink>
-        
-        <div className=" justify-self-center">
-        <a href=""><i class='bx bxl-github'></i></a>
-        <a href=""><i class='bx bxl-behance'></i></a>
-        <a href=""><i class='bx bxl-linkedin'></i></a>
 
+        <div className="ml-auto">
+          <a href="" target="_blank" className="text-2xl hover:animate-lights">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.behance.net/richardkbits" target="_blank" className="text-2xl hover:animate-lights ml-4">
+            <i class="bx bxl-behance"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/richardkbits/" target="_blank" className="text-2xl hover:animate-lights ml-4">
+            <i class="bx bxl-linkedin"></i>
+          </a>
         </div>
       </nav>
     </>

@@ -53,7 +53,7 @@ export const Home = () => {
       lg:text-[280px]
       lg:tracking-[2rem]
       ">
-        He<span className="llo">llo</span>
+        He<span className="animate-lights">llo</span>
       </h3>
 
       <Link className="btn

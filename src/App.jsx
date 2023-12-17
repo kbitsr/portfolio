@@ -6,6 +6,8 @@ import { About } from "./pages/About";
 import { Home } from "./pages/Home";
 import { BarChart } from "./components/BarChart";
 import { Profile } from "./pages/Profile";
+import { Education } from "./components/Education";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="about" element={<About />} >
             <Route index element={<Profile/>}/>
             <Route path="skill" element={<BarChart/>}/>
+            <Route path="education" element={<Education/>}/>
           </Route>
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />

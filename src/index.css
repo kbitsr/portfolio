@@ -41,9 +41,21 @@
   items-center
   w-[230px]
 }
+.input{
+  @apply transition
+  bg-transparent
+  focus:outline-none
+  text-teal-400
+  outline-none
+  border-b-[1px]
+  border-gray-600
+  focus:border-teal-400
+  h-12
+  placeholder:text-gray-600
+  active:border-s-teal-500
 }
 
-
+}
 
 .active{
     @apply text-teal-500 border-t border-teal-600 transition duration-150
