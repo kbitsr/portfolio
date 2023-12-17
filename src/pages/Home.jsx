@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
-    <section className="animate__animated animate__slideInLeft animate__faster">
+    <section className=" animate__animated animate__slideInLeft animate__faster">
       <h1
         className="
       row-start-3
@@ -37,7 +37,7 @@ export const Home = () => {
         WEB DESIGN & DEVELOPMENT
       </h2>
       <h3
-        className="hello
+        className="
       row-start-1
       row-span-2
       col-span-full
@@ -52,10 +52,8 @@ export const Home = () => {
       lg:row-span-4
       lg:text-[280px]
       lg:tracking-[2rem]
-      animate-lights
-      delay-1000
       ">
-        He<span className="animate-lights">llo</span>
+        He<span className="llo">llo</span>
       </h3>
 
       <Link className="btn

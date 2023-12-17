@@ -4,6 +4,8 @@ import { Contact } from "./pages/Contact";
 import { Portfolio } from "./pages/Portfolio";
 import { About } from "./pages/About";
 import { Home } from "./pages/Home";
+import { BarChart } from "./components/BarChart";
+import { Profile } from "./pages/Profile";
 
 function App() {
   return (
@@ -11,7 +13,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="about" element={<About />} >
+            <Route index element={<Profile/>}/>
+            <Route path="skill" element={<BarChart/>}/>
+          </Route>
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Navigate replace to="/" />} />
