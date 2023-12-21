@@ -9,7 +9,8 @@ export default {
     extend: {
       backgroundImage:{
         "black-gradient":"linear-gradient(to top , #041529 70%, #028cb6 150%)",
-        "profile":"url('./assets/profile.jpg')"
+        "profile":"url('./assets/profile.jpg')",
+        "map":"url('./assets/map.png')",
       },
 
       gridTemplateRows: {

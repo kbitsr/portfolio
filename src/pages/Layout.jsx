@@ -34,8 +34,8 @@ export const Layout = () => {
           <span className="mx-2">CONTACT</span>
         </NavLink>
 
-        <div className="ml-auto">
-          <a href="" target="_blank" className="text-2xl hover:animate-lights">
+        <div className="ml-auto hidden lg:block">
+          <a href="https://github.com/kbitsr" target="_blank" className="text-2xl hover:animate-lights">
             <i class="bx bxl-github"></i>
           </a>
           <a href="https://www.behance.net/richardkbits" target="_blank" className="text-2xl hover:animate-lights ml-4">
