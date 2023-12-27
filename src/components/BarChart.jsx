@@ -46,7 +46,7 @@ export const options = {
     },
     title: {
       display: false,
-      text: "SKILLS"
+      text: "SKILLS",
     },
   },
 };

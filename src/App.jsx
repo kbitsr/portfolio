@@ -7,6 +7,7 @@ import { Home } from "./pages/Home";
 import { BarChart } from "./components/BarChart";
 import { Profile } from "./pages/Profile";
 import { Education } from "./components/Education";
+import { PolarChart } from "./components/PolarChart";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<AboutIndex />} >
             <Route index element={<Profile/>}/>
-            <Route path="skill" element={<BarChart/>}/>
+            <Route path="skill" element={<PolarChart/>}/>
             <Route path="education" element={<Education/>}/>
           </Route>
           <Route path="portfolio" element={<PortfolioIndex />}>

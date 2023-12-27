@@ -12,6 +12,7 @@ export const Contact = () => {
     emailjs.sendForm('service_my7xdem', 'template_xzrqbfe', form.current, 'Jbl9_K5vgObykjWEx')
       .then((result) => {
           console.log(result.text);
+          form.current.reset()
       }, (error) => {
           console.log(error.text);
       });
@@ -27,7 +28,7 @@ export const Contact = () => {
       row-span-2
       lg:row-start-2
       lg:col-start-2
-      lg:col-span-6
+      lg:col-span-5
       lg:row-span-5
       bg-map
       bg-cover
@@ -62,7 +63,7 @@ export const Contact = () => {
           placeholder="Type a message"
           className="input resize-none"
         ></textarea>
-        <input type="submit" value="Send" className="btn" />
+        <input type="submit" value="Send" className="btn self-center" />
       </form>
     </section>
   );

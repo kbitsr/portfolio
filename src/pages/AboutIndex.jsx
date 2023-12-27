@@ -10,7 +10,7 @@ export const AboutIndex = () => {
   return (
     <section className="animate__animated animate__slideInRight animate__faster">
       
-    {path1||path2?<div className="flex justify-center gap-x-4 items-center col-start-6 col-span-2">
+    {path1||path2?<div className="flex justify-center gap-x-4 items-center lg:col-start-6 lg:col-span-2 col-span-full">
       <NavLink to="/about/skill" className="border-none">Skills</NavLink>
       <NavLink to="/about/education" className="border-none">Education</NavLink>
     </div>:null}
