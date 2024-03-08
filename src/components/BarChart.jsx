@@ -13,7 +13,6 @@ import {
   Legend,
   Filler,
 } from "chart.js";
-import { NavLink } from "react-router-dom";
 
 ChartJS.register(
   CategoryScale,

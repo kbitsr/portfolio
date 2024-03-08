@@ -6,21 +6,7 @@ export const Layout = () => {
     <>
       <Outlet />
       <nav
-        className="
-    flex
-    gap-x-4
-    items-center
-    row-start-7
-    col-span-full
-    lg:text-center 
-    lg:row-start-8
-    lg:row-span-1
-    lg:col-start-2
-    lg:col-end-12
-    lg:border-t-[1px]
-    lg:border-zinc-700
-    "
-      >
+        className=" flex gap-x-4 items-center row-start-7 col-span-full lg:text-center  lg:row-start-8 lg:row-span-1 lg:col-start-2 lg:col-end-12 lg:border-t-[1px] lg:border-zinc-700">
         <NavLink to="/" className="h-full flex items-center ">
           <span className="mx-2">HOME</span>
         </NavLink>
